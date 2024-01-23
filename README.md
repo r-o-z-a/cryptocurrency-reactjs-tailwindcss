@@ -1,4 +1,4 @@
-# Crypto App
+# Cryptocurrency App
 
 Crypto App is a simple React application that displays information about cryptocurrencies. Users can search for specific cryptocurrencies and view details about each coin, including a price chart.
 
