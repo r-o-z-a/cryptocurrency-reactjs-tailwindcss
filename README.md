@@ -1,6 +1,6 @@
 # Cryptocurrency App
 
-Crypto App is a simple React application that displays information about cryptocurrencies. Users can search for specific cryptocurrencies and view details about each coin, including a price chart.
+Crypto App is a React application that displays information about cryptocurrencies. Users can search for specific cryptocurrencies and view details about each coin, including a price chart.
 
 ## Table of Contents
 
@@ -54,9 +54,10 @@ The app will be available at [http://localhost:3000](http://localhost:3000).
 The project consists of the following components:
 
 - `App`: The main component that fetches cryptocurrency data and renders the list of coins.
-- `Coin`: Represents an individual coin card.
-- `Details`: Displays detailed information about a selected coin, including a price chart.
-- `Navbar`: The navigation bar with a search functionality.
+- `Coin`: displays information about a cryptocurrency, including its name, price, symbol, and price change percentage. It also includes a dynamic background color based on the price change.
+- `Details`: shows detailed information about a selected cryptocurrency. It includes a line chart displaying percentage changes over different time intervals.displays detailed information about a selected coin, including a price chart.
+- `Navbar`: provides a navigation bar with the title "Crypto App" and a search input for filtering cryptocurrencies.
+- `LineChartComponent` is a reusable component for displaying line charts. It is utilized within the `Details` component to visualize percentage changes for a selected cryptocurrency over time.
 
 ## Libraries Used
 
