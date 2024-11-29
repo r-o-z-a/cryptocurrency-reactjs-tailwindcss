@@ -14,24 +14,24 @@ function Coin({ name, price, change, symbol, onClick }) {
       }`}
       onClick={onClick}
     >
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-5">
         <img
           src={`https://coinicons-api.vercel.app/api/icon/${symbol.toLowerCase()}`}
           className="h-12 w-12"
           alt={name}
         />
-        <span
-          style={{ backgroundColor: getBackgroundColorClass() }}
-          className="italic font-light px-1 rounded text-white ml-2"
-        >
-          {change}%
-        </span>
       </div>
       <div className="ml-14 text-left">
-        <p className="text-base break-words">{name}</p>
+        {/* <p className="text-base break-words">{name}</p> */}
         <p className="font-thin">{symbol}</p>
         <p className="font-bold">${price}</p>
       </div>
+      <span
+        style={{ backgroundColor: getBackgroundColorClass() }}
+        className="italic font-light px-1 rounded text-white m-x-7"
+      >
+        {change}%
+      </span>
     </div>
   );
 }
