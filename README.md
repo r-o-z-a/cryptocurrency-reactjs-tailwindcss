@@ -2,14 +2,6 @@
 
 Crypto App is a React application that displays information about cryptocurrencies. Users can search for specific cryptocurrencies and view details about each coin, including a price chart.
 
-<!-- <img src="./src/assets/imgs/photo_2024-11-29_19-56-48.jpg" align="center" height="350" width="600"/>
-<img src="./src/assets/imgs/photo_2024-11-29_19-56-52.jpg" align="center" height="350" width="600"/>
-<img src="./src/assets/imgs/photo_2024-11-29_19-56-55.jpg" align="center" height="350" width="600"/>
-<img src="./src/assets/imgs/photo_2024-11-29_19-56-59.jpg" align="center" height="350" width="600"/>
-<img src="./src/assets/imgs/photo_2024-11-29_19-57-02.jpg" align="center" height="350" width="600"/> -->
-
-![screenshot](./src/assets/imgs/photo_2024-11-29_19-57-02.jpg)
-
 ## Table of Contents
 
 - [Getting Started](#getting-started)
